@@ -1,0 +1,11 @@
+﻿@using Server_Teste.Models;
+@model PessoaModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Seja bem vindo página @Model.nome @Model.sobrenome!</p>
+    <p>@Model.Data</p>
+</div>
